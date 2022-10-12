@@ -16,6 +16,7 @@ class Types{
          * int -> nombre entier
          * char -> caractère unique Unicode
          * double -> valeur numérique à virgule flottante
+         * boolean -> valeur true ou false
          * String -> texte
          * 
          * On peut donner une INSTRUCTION DE DÉCLARATION qui donne seulement 
@@ -58,11 +59,20 @@ class Types{
         // ----------- VIRGULES FLOTTANTES -------------
 
         double val; // déclaration
-        val = Math.PI; // assignation avec une expression
-            // notez que les majuscules suggèrent que PI est une constante déclarée
-            // dans la classe Math
-        double neg = -2.5; // le décimal est un point (.) pour les valeurs litérales
-                           // des valeurs à virgule flottante
+        val = -2.5; // le décimal est un point (.) pour les valeurs litérales
+                    // des valeurs à virgule flottante
+        
+        final double PI = Math.PI; // assignation avec une expression
+            // notez que les majuscules suggèrent que Math.PI est une constante 
+            // déclarée dans la classe Math
+            // la nouvelle variable PI dans cette classe est aussi une constant
+            // parce qu'on a ajouté le mot-clé 'final' à sa déclaration
+
+        
+        // ------------ BOOLÉENS --------------------
+
+        boolean go = false; // les valeurs litérales sont les mot-clés true ou false
+        boolean isBigger = 3 > 1; // assignation avec une expression conditionnelle
 
 
         // ----------- CARACTÈRES UNICODE -------------
@@ -103,6 +113,5 @@ class Types{
 
         String alphanum = alphabet + "0123456789"; // le symbole + joint 2 Strings
 
-           
     }
 }
