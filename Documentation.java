@@ -13,16 +13,16 @@ public class Documentation {
     }
 
     /*
-     * Ceci est un commentaire de bloc (et non de 
-     * documentation... seulement 1 *)
+     * Note : Ceci est un commentaire de bloc PAS de 
+     * documentation (seulement 1 *)
      * 
-     * La documentation précède uniquement :
+     * La DOCUMENTATION précède uniquement :
      *     1. les classes
      *     2. les méthodes
      *     3. les propriétés
      * 
-     * Dans ce cours, on l'utilise principalement pour
-     * donner un en-tête à notre programme
+     * Dans ce cours, on utilise la documentation principalement pour
+     * donner un en-tête à notre programme.
      */
     
 }
