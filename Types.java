@@ -60,7 +60,6 @@ class Types{
 
         double val; // déclaration
         val = -2.5; // le décimal est un point (.) pour les valeurs litérales
-                    // des valeurs à virgule flottante
         
         final double PI = Math.PI; // assignation avec une expression
             // notez que les majuscules suggèrent que Math.PI est une constante 
@@ -71,7 +70,7 @@ class Types{
         
         // ------------ BOOLÉENS --------------------
 
-        boolean go = false; // les valeurs litérales sont les mot-clés true ou false
+        boolean go = false; // les valeurs litérales sont les mot-clés 'true' ou 'false'
         boolean isBigger = 3 > 1; // assignation avec une expression conditionnelle
 
 
@@ -104,6 +103,9 @@ class Types{
          * chaîne de char. Contrairement aux autres types vus plus haut, le
          * String est une classe et contient donc plusieurs méthodes pour
          * travailler avec le texte.
+         * 
+         * Notez que, parce que c'est une classe, le nom du type commence avec
+         * une lettre majuscule.
          */
 
         String alphabet;
