@@ -24,6 +24,8 @@ Tout le code se trouve dans le même dossier racine - c'est voulu : on peut alor
 * Bonjour.java
 * Commentaires.java
 * Documentation.java
+* Ponctuation.java
+* Identifiers.java
 
 #### Types de données
 
