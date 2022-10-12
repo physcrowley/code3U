@@ -1,6 +1,6 @@
 public class Commentaires { // tout code en Java est placé dans une classe
 
-    // à l'intérieur des classe ont peut trouver seulement
+    // à l'intérieur des classes on peut trouver seulement
     // deux choses :
     //    * des méthodes (qu'on appelle aussi des fonctions)
     //    * des propriétés (qu'on appelle aussi des champs ou des variables de classe)
