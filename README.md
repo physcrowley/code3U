@@ -6,7 +6,7 @@
 Les exemples sont préparés pour téléchargement par les élèves du cours ICS3U de M. Crowley. 
 
 * Cloner le répertoire sur votre ordinateur
-* Si l'enseignant ajoute des nouveaux fichiers, simplement faire un Pull (cliquer sur le bouton synchroniser dans VS Code)
+* Si l'enseignant ajoute des nouveaux fichiers, simplement faire un Fetch (cliquer sur le bouton synchroniser dans VS Code)
 * Vous ne pouvez pas pousser vos changements dans ce dossier. Le partage se fait à sens unique.
 
 Ces exemples sont complémentaires aux leçons présentées en classe et sont souvent la base des exercices.
