@@ -1,3 +1,7 @@
+/** 
+ * Exemples de <pre>System.out.print()</pre> 
+ * @author physcrowley (2022-10)
+ */
 public class Print {
     public static void main(String[] args) {
         
@@ -16,10 +20,10 @@ public class Print {
          */
 
         // mots
-        System.out.print( "Mon ");
+        System.out.print( "Mon " );
         System.out.print( "nom " );
-        System.out.print( "est ");
-        System.out.print( "Jean.");
+        System.out.print( "est " );
+        System.out.print( "Jean." );
 
         System.out.println(); // retour de ligne
 
