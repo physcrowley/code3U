@@ -3,6 +3,9 @@
 
 ## Utilisation
 
+<details>
+    <summary><i>Cliquez pour voir les informations</i></summary>
+
 Les exemples sont préparés pour téléchargement par les élèves du cours ICS3U de M. Crowley. 
 
 * Cloner le répertoire sur votre ordinateur
@@ -11,9 +14,17 @@ Les exemples sont préparés pour téléchargement par les élèves du cours ICS
 
 Ces exemples sont complémentaires aux leçons présentées en classe et sont souvent la base des exercices.
 
+</details>
+
+
 ## Structure
 
+<details>
+    <summary><i>Cliquez pour voir les informations</i></summary>
+
 Tout le code se trouve dans le même dossier racine - c'est voulu : on peut alors facilement utiliser du code de n'importe quel fichier existant dans n'importe quel nouveau fichier. Dans le jargon de Java, tout le code se trouve dans le même *package*, et les membres d'un package peuvent toujours se voir.
+
+</details>
 
 ## Répertoire
 
