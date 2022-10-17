@@ -64,6 +64,7 @@ public class Operations {
         z = a / b; // z = 3.0 
             // la division entière est évaluée avant d'assigner le résultat au double z
         
+        // modulo (restant)
         c = 7 % 2; // c = 1 (lorsqu'on divise 7 par 2, le restant est 1)
         c = 24 % 3; // c = 0 (aucun restant, 24 se divise parfaitement par 3)
 
