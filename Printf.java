@@ -45,11 +45,12 @@ public class Printf {
          */
         
         // spécifier la largeur
-        String s = String.format( "%8d  %8d  %8d", 12, 24, 48 );
+        String s;
+        s = String.format( "%8d  %8d  %8d", 8, 32, 128 ); // 8 caractères de large
         System.out.println( s );
-        s = String.format( "%-8d  %-8d  %-8d", 12, 24, 48 ); // aligné à gauche
+        s = String.format( "%-8d  %-8d  %-8d", 8, 32, 128 ); // aligné à gauche
         System.out.println( s );
-        s = String.format( "%08d  %08d  %08d", 12, 24, 48 ); // rempli avec des 0
+        s = String.format( "%08d  %08d  %08d", 8, 32, 128 ); // rempli avec des 0
         System.out.println( s );
 
         // NOTE : c'est possible de spécifier la largeur avec tous les types, 
