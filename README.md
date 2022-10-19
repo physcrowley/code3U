@@ -60,7 +60,7 @@ Cette section du cours nous montre comment implémenter les opérations d'**entr
 
 * [PromptInput.java](PromptInput.java)
 * [FileInput.java](FileInput.java)
-* [Args.java](Args.java)
+* [Add.java](Add.java) -> utiliser `String[] args`
 
 ### Tester et valider le code
 
