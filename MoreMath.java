@@ -33,8 +33,24 @@ class MoreMath
         Math.max( 23, 27 ); // 27
         Math.min( 23, 27 ); // 23
 
-        // trigonométrie
+        //
+        // Trigonométrie
+        //
 
+        // fonctions trigonométrique (les angles sont en radians)
+        Math.sin( Math.PI / 2 ); // 1
+        Math.cos( Math.PI / 2 ); // 0
+        Math.tan( Math.PI / 2 ); // infini 
+
+        // convertir les radians -> degrés
+        Math.toDegrees( Math.PI / 2 ); // 90
+        Math.toDegrees( 1.54 );
+        Math.toDegrees( 5 );
+
+        // convertir les degrés -> radians
+        Math.toRadians( 45 );
+        Math.toRadians( 90 );
+        Math.toRadians( 180 );
 
 
         //
@@ -52,7 +68,7 @@ class MoreMath
         // utiliser y = mx + b pour avoir des valeurs dans un intervalle choisi
 
         double d;
-        d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement 
+        d = 25 + Math.random() * 25; // entre 25 et 49.999 inclusivement 
         d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
         d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
         d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
