@@ -1,0 +1,70 @@
+class MoreMath
+{
+    public static void main(String[] args) 
+    {
+        /*
+         * Encore : prendre les exemples et les copier dans jshell pour voir
+         * le résultat. Il n'y a pas d'instructions de sortie dans cette classe.
+         */
+
+        /*
+         * La classe Math est incluse dans la bibliothèque standard, comme les
+         * classes System et String. Cette classe inclut beaucoup de méthodes
+         * pour faire une variété de calculs plus avancés que l'arithmétique
+         * simple des opérations + - / * et %.
+         */
+        
+        //
+        // Opérations plus avancées
+        //
+
+        // puissances
+        Math.pow( 10, 3 ); // 10 exposant 3
+
+        // racine carrée
+        Math.sqrt( 64 ); // 8
+        Math.sqrt( 25.67 ); 
+
+        // valeur absolue
+        Math.abs( -3 ); // 3 (la valeur absolue ignore le signe)
+        Math.abs( 3 ); // aussi 3
+
+        // min et max
+        Math.max( 23, 27 ); // 27
+        Math.min( 23, 27 ); // 23
+
+        // trigonométrie
+
+
+
+        //
+        // Valeurs aléatoires
+        //
+
+        // valeurs entre 0.0 (inclus) et 1.0 (exclus)
+        Math.random();
+        Math.random();
+        Math.random();
+        Math.random();
+        Math.random();
+        Math.random();
+
+        // utiliser y = mx + b pour avoir des valeurs dans un intervalle choisi
+
+        double d;
+        d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement 
+        d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
+        d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
+        d = 25 + Math.random() * 25; // entre 25 et 49 inclusivement
+
+        int n;
+        n = (int) ( 1 + Math.random() * 100 ); // entre 1 et 100 inclusivement
+        n = (int) ( 1 + Math.random() * 100 ); // entre 1 et 100 inclusivement
+        n = (int) ( 1 + Math.random() * 100 ); // entre 1 et 100 inclusivement
+        n = (int) ( 1 + Math.random() * 100 ); // entre 1 et 100 inclusivement
+        n = (int) ( 1 + Math.random() * 100 ); // entre 1 et 100 inclusivement
+
+
+
+    }
+}
