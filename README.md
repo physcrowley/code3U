@@ -53,8 +53,6 @@ Tout le code se trouve dans le même dossier racine - c'est voulu : on peut alor
 #### Utiliser la bibliothèque standard
 
 * MoreMath.java
-* Scan.java
-* Files.java
 
 #### Saisir des données
 
