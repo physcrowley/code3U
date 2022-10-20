@@ -30,7 +30,7 @@ public class Println {
         System.out.println( a + x + s ); // évalue le calcul avant la concaténation
         System.out.println(); // ligne vide
 
-        // slalom
+        // slalom - un ASCII art pathétique
         System.out.println("x                      ");
         System.out.println(" x                     ");
         System.out.println("  x                    ");
