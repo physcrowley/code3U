@@ -88,10 +88,10 @@ public class PromptInput
          * RAPPEL DE QUELQUES MÉTHODES D'ENTRÉE
          * 
          * next() -> String (prochain mot)
-         * nextLine() -> 1- String (tout jusqu'au retour de ligne)
+         * nextLine() -> 1- String (tout le texte jusqu'au retour de ligne)
          *               2- C'est aussi utile pour vider une ligne et passer 
          *               à la prochaine : simplement appeler nextLine() sans
-         *               sans assignée la valeur à une variable
+         *               assigner la valeur à une variable
          * nextInt() -> int
          * nextDouble() -> double
          * 
