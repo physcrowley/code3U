@@ -12,6 +12,12 @@
  */
 import java.util.Scanner; // importe la classe Scanner du package java.util
 
+/**
+ * Exemples avec un Scanner <p>
+ * USAGE : lire les commentaires et le code source. Ensuite, compiler et
+ * lancer le programme via la console pour voir l'effet pour l'utilisateur.
+ * @author physcrowley (2022-10)
+ */
 public class PromptInput 
 {
     public static void main(String[] args) 
@@ -58,7 +64,7 @@ public class PromptInput
         String firstWord = input.next(); // entrée -> next() prend juste un mot
         System.out.println( "J'ai capté : " + firstWord ); // confirmation
 
-        // au lieu d'un seul mot comme next(), nextLine() prend tout jusqu'au 
+        // Au lieu d'un seul mot [comme next()], nextLine() prend tout jusqu'au 
         // retour de ligne. Parce que le dernier appel a saisit juste le 1e
         // mot, il reste encore des éléments dans le System.console().reader()
         // qu'on peut lire.
