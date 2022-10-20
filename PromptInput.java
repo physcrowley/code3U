@@ -78,7 +78,7 @@ public class PromptInput
         double masse = input.nextDouble(); // convertit texte -> double si possible
 
         System.out.printf( 
-            "\nMerci %s (age : %d, poids : %.1f).\n", 
+            "\nMerci %s (age : %d, poids : %.1flb).\n", 
             firstName, age, masse );
         System.out.println( "Je me souviendrez toujours que vous m'avez dit :");
         System.out.println( firstWord + " " + restOfSentence );
