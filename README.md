@@ -76,9 +76,11 @@ Cette section du cours nous donne des outils pour identifier les erreurs dans no
 
 Cette section du cours nous aide à réfléchir à une solution avant de se perdre dans les détails du Java (et les bogues).
 
-#### Décrire le problème avec un diagramme EPS  ("IPO" en anglais)
+#### Décrire le problème avec un diagramme ETS ("IPO" en anglais)
 
-#### Décrire l'algorithme qui réalise l'EPS (diagramme de flux ou pseudocode)
+#### Décrire les cas de test importants
+
+#### Décrire l'algorithme qui réalise l'ETS (diagramme de flux ou pseudocode)
 
 ### Structures de contrôle
 
