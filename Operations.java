@@ -22,8 +22,8 @@ public class Operations {
          * C'est lorsqu'on assigne à une variable une nouvelle valeur calculée à
          * partir de sa valeur actuelle.
          * 
-         *     n++ -> équivalent à n = n + 1
-         *     n-- -> équivalent à n = n - 1
+         *     n++ -> INCRÉMENTATION : équivalent à n = n + 1
+         *     n-- -> DÉCRÉMENTATION : équivalent à n = n - 1
          *     n += 5; -> équivalent à n = n + 5;
          *     n -= 5; -> équivalent à n = n - 5;
          *     n *= 5; -> équivalent à n = n * 5;
