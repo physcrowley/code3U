@@ -26,7 +26,7 @@ class Types{
          * valeur de type appropriée à la variable.
          * 
          * Quand on assigne une valeur, cette valeur peut être :
-         *     - LITÉRALE, p. ex. : 1, -25.6, 'v', "David"
+         *     - LITTÉRALE, p. ex. : 1, -25.6, 'v', "David"
          *     - le résultat d'une expression (comme une autre variable ou un
          *       calcul)
          * 
@@ -51,15 +51,15 @@ class Types{
         // ------------ NOMBRES ENTIERS -------------- 
 
         int num; // déclaration
-        num = 3; // initialisation avec une valeur litérale
-        int otherNum = 5; // déclaration et initialisation avec une autre valeur litérale
+        num = 3; // initialisation avec une valeur littérale
+        int otherNum = 5; // déclaration et initialisation avec une autre valeur littérale
         num = otherNum; // assignation avec une expression (variable otherNum)
 
 
         // ----------- VIRGULES FLOTTANTES -------------
 
         double val; // déclaration
-        val = -2.5; // le décimal est un point (.) pour les valeurs litérales
+        val = -2.5; // le décimal est un point (.) pour les valeurs littérales
         
         final double PI = Math.PI; // assignation avec une expression
             // notez que les majuscules suggèrent que Math.PI est une constante 
@@ -70,14 +70,14 @@ class Types{
         
         // ------------ BOOLÉENS --------------------
 
-        boolean go = false; // les valeurs litérales sont les mot-clés 'true' ou 'false'
+        boolean go = false; // les valeurs littérales sont les mot-clés 'true' ou 'false'
         boolean isBigger = 3 > 1; // assignation avec une expression conditionnelle
 
 
         // ----------- CARACTÈRES UNICODE -------------
 
         char a = 97; // 97 est le code décimal pour le caractère 'a'
-        char c = 'c'; // on utilise des apostrophes (') pour les valeurs litérales
+        char c = 'c'; // on utilise des apostrophes (') pour les valeurs littérales
         int cCode = c; // obtenir le code numérique d'un char
 
         // caractères spéciaux
@@ -109,7 +109,7 @@ class Types{
          */
 
         String alphabet;
-        alphabet = "abcdefghijklmnopqrstuvwxyz"; // la valeur litérale est entourée
+        alphabet = "abcdefghijklmnopqrstuvwxyz"; // la valeur littérale est entourée
                                                  // de guillemets (")
         alphabet = alphabet.toUpperCase(); // une méthode pour changer la casse
 
