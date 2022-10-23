@@ -28,7 +28,7 @@ public class Print {
         System.out.println(); // retour de ligne
 
         /*
-         * Caractères d'échappement
+         * CARACTÈRES D'ÉCHAPPEMENT
          * 
          * On peut manuellement ajouter des retours de ligne ou des
          * tabulations avec des caractères d'échappement. Voici une courte
