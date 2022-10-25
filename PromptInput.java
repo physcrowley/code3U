@@ -10,6 +10,7 @@
  * est dans un autre package - java.util. Parce que ça vient d'un autre
  * package, on doit déclarer l'importation explicitement.
  */
+import java.util.Locale; // importe la classe Locale du package java.util
 import java.util.Scanner; // importe la classe Scanner du package java.util
 
 /**
@@ -46,6 +47,7 @@ public class PromptInput
          * pas utilisée.
          */
         Scanner input = new Scanner( System.console().reader() );
+        // input.useLocale( Locale.CANADA);
 
         System.out.println( "Bonjour!" ); // acceuil
 
