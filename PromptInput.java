@@ -73,12 +73,13 @@ public class PromptInput
         String restOfSentence = input.nextLine(); 
         System.out.println( "Et le reste de la phrase : " + restOfSentence );
 
-        System.out.print( "Entrez votre age > " );
-        int age = input.nextInt(); // convertit texte -> int si possible
+        System.out.print( "Entrez votre age > " ); // invite de commande
+        int age = input.nextInt(); // entrée... convertit texte -> int si possible
 
-        System.out.print( "Entrez votre masse en lb > " );
-        double masse = input.nextDouble(); // convertit texte -> double si possible
+        System.out.print( "Entrez votre masse en lb > " ); // invite de commande
+        double masse = input.nextDouble(); // entrée... convertit texte -> double si possible
 
+        // traitement et sortie
         System.out.printf( 
             "\nMerci %s (age : %d, poids : %.1flb).\n", 
             firstName, age, masse );
