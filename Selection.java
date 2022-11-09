@@ -4,41 +4,22 @@ class Selection
 {
     public static void main(String[] args) 
     {
-        /*
-         * La sélection rend un programme intelligent.
-         * 
-         * C'est ce qui lui permet de faire des choix.
-         * 
-         * Selon le résultat true/false d'une condition
-         * un bloc de code ou un autre sera exécuté.
-         * 
-         * La sélection présente une fourche ou un
-         * branchement dans le code. Seulement un
-         * chemin sera suivi.
-         * 
-         * Les mots-clés pour la sélection sont :
-         * IF
-         * ELSE
-         * ELSE IF
-         */
-
-        //exemple1();
-        //exemple2();
-        exemple3();
-
+        //exemple1(); // les méthodes sont, à la base, des instructions nommées
+        //exemple2(); // ça, c'est un APPEL de méthode qui lance les instructions
+        exemple3(); // faire Ctrl + clic pour sauter à la DÉFINITION de méthode
     }
 
     static void exemple3()
     {
         System.out.println( "Exemple 3" );
         Scanner in = new Scanner( System.console().reader() );
+
         System.out.print( "Choisir un nombre parmis les suivants (1, 3, 7) > ");
         int answer = in.nextInt();
 
-        /*
-         * L'opération OU / OR -> ||
-         * L'opération ET / AND -> &&
-         */
+        // même logique que l'exemple 2, mais on combine plusieurs conditions
+        // avec l'opérateur OR (||) pour éviter le copiage des blocs de code
+        // identiques.
         if ( answer == 1 || answer == 3 || answer == 7 )
         {
             System.out.println( "valide" );
@@ -53,6 +34,7 @@ class Selection
     {
         System.out.println( "Exemple 2" );
         Scanner in = new Scanner( System.console().reader() );
+
         System.out.print( "Choisir un nombre parmis les suivants (1, 3, 7) > ");
         int answer = in.nextInt();
 
@@ -74,10 +56,11 @@ class Selection
         }
     }
 
-    static void exemple1() // une méthode - instructions nommées
+    static void exemple1() // une méthode = instructions nommées
     {
         System.out.println( "Exemple 1" );
         Scanner in = new Scanner( System.console().reader() );
+
         //
         // ENTRÉE
         //
