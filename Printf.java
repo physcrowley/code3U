@@ -3,22 +3,16 @@
  * <pre>
  *System.out.printf()
  *String.format()
- * </pre>
+ * </pre><p>
+ * Voir PrintNotes.md et le manuel du cours (https://bit.ly/manICS3U) pour des notes plus détaillées.
  * @author physcrowley (2022-10)
  */
 public class Printf {
     public static void main(String[] args) {
         
-        /*
-         * System.out.printf
-         * 
-         * une autre méthode pour afficher le texte, mais cette fois-ci,
-         * plus configurable au coût de plus de complexité.
-         * 
-         * VOIR LES NOTES DANS LE MANUEL POUR LES DÉTAILS
-         * Le code ici sont les exemples dans les notes.
-         * 
-         */
+        //
+        // System.out.printf
+        //
         
         String firstName = "David", lastName = "Crowley";
         System.out.printf( "%s %S\n", firstName, lastName ); // noter la casse
@@ -35,15 +29,10 @@ public class Printf {
         System.out.printf( "Pi : %.4f, Tau : %.4f\n", p, t );
         System.out.printf( "Pi : %.15f, Tau : %.15f\n", p, t );
 
-        /*
-         * String.format
-         * 
-         * prend les mêmes arguments que printf mais retourne un String 
-         * formaté au lieu de l'afficher. On peut l'assigner à une 
-         * variable de type String.
-         * 
-         */
-        
+        //
+        // String.format
+        //
+
         // spécifier la largeur
         String s;
         s = String.format( "%8d  %8d  %8d", 8, 32, 128 ); // 8 caractères de large

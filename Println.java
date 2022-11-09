@@ -1,24 +1,10 @@
 /** 
- * Exemples avec <pre>System.out.println()</pre>
+ * Exemples avec <pre>System.out.println()</pre><p>
+ * Les notes détaillées sont dans PrintNotes.md
  * @author physcrowley (2022-10)
  */
 public class Println {
     public static void main(String[] args) {
-        /*
-         * System.out.println()
-         * 
-         * out est un objet liée à la console (au terminal) du système
-         * d'exploitation.
-         * 
-         * Cet objet est défini dans la classe System, d'où "System.out".
-         * 
-         * L'objet out a plusieurs façons d'afficher du texte au terminal,
-         * dont la méthode println().
-         * 
-         * println() convertit tout ce qui est entre ses parenthèses en texte
-         * avant de l'afficher. Finalement, il ajoute un retour de ligne qui
-         * place le curseur au début de la prochaine ligne au terminal.
-         */
 
         int a = 3;
         double x = 3.5;
