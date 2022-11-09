@@ -1,6 +1,6 @@
 /** 
  * Exemples avec <pre>System.out.println()</pre><p>
- * Les notes détaillées sont dans PrintNotes.md
+ * Les notes détaillées sont dans le manuel du cours
  * @author physcrowley (2022-10)
  */
 public class Println {

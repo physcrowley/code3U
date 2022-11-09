@@ -4,7 +4,7 @@
  *System.out.printf()
  *String.format()
  * </pre><p>
- * Voir PrintNotes.md et le manuel du cours (https://bit.ly/manICS3U) pour des notes plus détaillées.
+ * Voir le manuel du cours pour plus de détails
  * @author physcrowley (2022-10)
  */
 public class Printf {
