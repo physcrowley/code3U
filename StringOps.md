@@ -1,13 +1,15 @@
+# Opérateurs sur le texte dans Java
+
+> Copier ou transcrire les exemples ci-dessous dans jshell pour voir le résultat
+
+
+## Concaténation du texte
+
+La **concaténation** est quand deux ou plusieurs valeurs sont collées pour former un seul texte. Au moins une des valeurs doit être du texte, sinon l'opérateur `+` fera une addition entre les nombres.
+
+Il faut simplement placer l'opérateur `+` entre le texte et n'importe quel autre type de donnée.
+
 ```java
-/*
- * Exemples avec les différents opérateurs pour les Strings à exécuter dans jshell
- */
-/*
-    * CONCATENATION DU TEXTE
-    * + entre un texte et n'importe quel autre type de donnée produit un plus
-    * long texte combinant la valeur des deux.
-    * 
-    */
 String s = "Un début " + "de phrase";
 s = "Olé! ";
 s = s + s + s;
@@ -19,27 +21,34 @@ double average = 87.4;
 String student = name + " (" + id + ") : moyenne = " + average;
 double best = 99.7;
 student = student + " (best = " + best + ")";
+```
 
-/*
-    * CHANGER LA CASSE
-    */
+## Changer la casse
 
+On utilise les méthodes `toLowerCase()` et `toUpperCase()` sur les String.
+
+```java
+String s = "Ma réponse est MAGNIFIQUE!";
 s.toLowerCase(); // minuscules
 s.toUpperCase(); // majuscules
+"Nom Propre".toLowerCase();
+```
 
+## Convertir le texte en valeurs numériques
 
-/*
-    * CONVERTIR LE TEXTE EN VALEURS NUMÉRIQUES
-    * 
-    * Il y a une classe pour chaque type de donnée numérique. P. ex. :
-    *    int -> class Integer
-    *    double -> class Double
-    *    boolean -> class Boolean
-    * 
-    * Dans ces classes, il y une méthode "parse" qui tente de traduire un texte
-    * dans le format numérique demandé.
-    */
+Il y a une classe pour chaque type de donnée numérique. P. ex. :
 
+* `int` -> classe `Integer`
+* `double` -> classe `Double`
+* `boolean` -> class `Boolean`
+
+Dans ces classes, il y une méthode **parse** qui tente de traduire un texte
+dans le format numérique demandé. P. ex. :
+
+* `Integer.parseInt( texte )`
+* `Double.parseDouble( texte )`
+
+```java
 String sNum = "1", sVal = "3.5", sIsWrong = "false";
 
 int iCalc;
@@ -56,6 +65,4 @@ boolean isItWrong;
 //isItWrong = sIsWrong; // erreur parce que sIsWrong n'est pas un booléen
 boolean isWrong = Boolean.parseBoolean( sIsWrong ); // traduit le texte en booléen
 isItWrong = isWrong;
-
-
 ```
