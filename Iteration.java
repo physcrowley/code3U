@@ -3,10 +3,25 @@ import java.util.Scanner;
 public class Iteration {
     
     public static void main(String[] args) {
+        
+        // ----------- WHILE -----------
+
         // afficherNombres(1, 10);
         // afficherNombres(2, 6);
 
         devinerNombre();
+
+        
+        // -------- DO - WHILE ---------
+        
+
+
+
+        
+        // ----- while (true) et break -----
+
+        
+        
     }
 
     static void afficherNombres( int start, int end)
