@@ -1,18 +1,14 @@
+/** 
+ * Une classe qui fait une addition utilisant les args comme entrées<p>
+ * USAGE : {@code java Add 4 5} -> il faut ajouter 2 valeurs entières après 
+ * le nom de la classe au lancement du programme qui seront passées comme
+ * args pour l'addition (comme 4 et 5 dans l'exemple)
+ */
 public class Add 
 {
-    /**
-     * {@code String[] args} est un tableaux de valeurs de type {@code String}. 
-     * On verra plus sur les tableaux plus tard dans le cours, mais il suffit 
-     * de savoir qu'on peut accéder aux valeurs individuelles en utilisant 
-     * leur <b>index</b>, soit un chiffre qui donne leur position dans le tableau.
-     * <p>
-     * USAGE : p. ex. : {@code java Add 4 5} -> il faut ajouter 2 valeurs entières après 
-     * le nom de la classe (comme 4 et 5 dans l'exemple)
-     */
     public static void main(String[] args) 
     {
-        System.out.println( "NOTE : Il faut lancer ce programme" );
-        System.out.println( "       avec 2 nombres entiers après le nom de classe.\n" );
+        System.out.println( "NOTE : Ce programme doit avoir 2 args qui sont des 'int'." );
 
         // On obtient la taille d'un tableau en plaçant .length après son nom
         System.out.println( "Il y a " + args.length +  " valeurs dans args.\n");
