@@ -16,7 +16,7 @@ public class PromptInput
     public static void main(String[] args) 
     {
         Scanner input = new Scanner( System.console().reader() );
-        // input.useLocale( Locale.CANADA);
+        // input.useLocale( Locale.CANADA); // format anglais
 
         // acceuil
         System.out.println( "Bonjour!" ); 
