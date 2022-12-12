@@ -4,10 +4,10 @@
  * le nom de la classe au lancement du programme qui seront passées comme
  * args pour l'addition (comme 4 et 5 dans l'exemple)
  */
-public class Add 
-{
-    public static void main(String[] args) 
-    {
+public class Add {
+
+    public static void main(String[] args) {
+        
         System.out.println( "NOTE : Ce programme doit avoir 2 args qui sont des 'int'." );
 
         // On obtient la taille d'un tableau en plaçant .length après son nom

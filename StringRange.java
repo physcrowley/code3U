@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class StringRange
-{
+class StringRange {
+    
     public static void main(String[] args) {
         Scanner console = new Scanner( System.console().reader() );
         
@@ -14,12 +14,10 @@ class StringRange
         // if ( rep.length() == 1 && carPermis.contains( rep ) )
         
         // je veux entre "a" et "g" 
-        if ( rep.compareTo("a") >= 0 && rep.compareTo("g") <= 0 ) 
-        {
+        if ( rep.compareTo("a") >= 0 && rep.compareTo("g") <= 0 ) {
             System.out.println( "réponse valide");
         }
-        else
-        {
+        else {
             System.out.println( "pas permis");
         }
 

@@ -11,10 +11,10 @@ import java.util.Scanner; // importe la classe Scanner du package java.util
  * lancer le programme via la console pour voir l'effet pour l'utilisateur.
  * @author physcrowley (2022-10)
  */
-public class PromptInput 
-{
-    public static void main(String[] args) 
-    {
+public class PromptInput {
+
+    public static void main(String[] args) {
+        
         Scanner input = new Scanner( System.console().reader() );
         // input.useLocale( Locale.CANADA); // format anglais
 

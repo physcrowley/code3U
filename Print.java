@@ -4,6 +4,7 @@
  * @author physcrowley (2022-10)
  */
 public class Print {
+
     public static void main(String[] args) {
 
         // mots

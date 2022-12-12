@@ -1,16 +1,15 @@
 import java.util.Scanner;
 
-class Selection
-{
-    public static void main(String[] args) 
-    {
+class Selection{
+
+    public static void main(String[] args) {
         //exemple1(); // les méthodes sont, à la base, des instructions nommées
         //exemple2(); // ça, c'est un APPEL de méthode qui lance les instructions
         exemple3(); // faire Ctrl + clic pour sauter à la DÉFINITION de méthode
     }
 
-    static void exemple3()
-    {
+    static void exemple3() {
+
         System.out.println( "Exemple 3" );
         Scanner in = new Scanner( System.console().reader() );
 
@@ -30,8 +29,8 @@ class Selection
         }
     }
 
-    static void exemple2()
-    {
+    static void exemple2() {
+
         System.out.println( "Exemple 2" );
         Scanner in = new Scanner( System.console().reader() );
 
@@ -56,8 +55,8 @@ class Selection
         }
     }
 
-    static void exemple1() // une méthode = instructions nommées
-    {
+    static void exemple1() { // une méthode = instructions nommées
+    
         System.out.println( "Exemple 1" );
         Scanner in = new Scanner( System.console().reader() );
 
@@ -86,16 +85,14 @@ class Selection
          */
 
         //if ( answer.equals("bleu") ) // la casse est importante
-        if ( answer.equalsIgnoreCase("bleu") ) // la casse n'est pas importante
-        {
+        
+        if ( answer.equalsIgnoreCase("bleu") ) {  // la casse n'est pas importante
             result = "Meilleure réponse";
         }
-        else if ( answer.equalsIgnoreCase("vert") )
-        {
+        else if ( answer.equalsIgnoreCase("vert") ) {
             result = "Bonne réponse";
         }
-        else
-        {
+        else {
             result = "Mauvais goût";
         }
     
