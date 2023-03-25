@@ -3,7 +3,7 @@ import java.io.FileWriter;  // classe FileWriter dans le package java.io
 import java.util.Locale;    // classe Locale dans le package java.util
 import java.util.Scanner;   // classe Scanner dans le package java.util
 
-public class FileInputOutput {<
+public class FileInputOutput {
 
     public static void main(String[] args) throws Exception { // à cause des fichiers
                
