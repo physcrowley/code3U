@@ -13,7 +13,7 @@ public class FileInputOutput {
     public static void main(String[] args) throws Exception { // à cause des fichiers
 
         scanFile("./data/input1.txt");
-        final double BMI = calculateBmi();
+        double BMI = calculateBmi();
         String output = name + " a un BMI de " + BMI;
         showBmi(output);
         saveBmiToFile(output, "./data/output1.txt");
