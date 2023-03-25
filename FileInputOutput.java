@@ -1,61 +1,56 @@
-import java.io.File;        // classe File dans le package java.io
-import java.io.FileWriter;  // classe FileWriter dans le package java.io
-import java.util.Locale;    // classe Locale dans le package java.util
-import java.util.Scanner;   // classe Scanner dans le package java.util
+import java.io.File; // classe File dans le package java.io
+import java.io.FileWriter; // classe FileWriter dans le package java.io
+import java.util.Locale; // classe Locale dans le package java.util
+import java.util.Scanner; // classe Scanner dans le package java.util
 
 public class FileInputOutput {
 
+    // Variables globales
+    static String name;
+    static double height, weight; // en m, en kg
+
+    /** Logique principale */
     public static void main(String[] args) throws Exception { // à cause des fichiers
-               
-        //
-        // ENTRÉE
-        // Saisir les valeurs dans le fichier
-        //
 
-        // préparation du Scanner pour lire le fichier
-        String filePath = "./data/input1.txt"; 
-        Scanner fileReader = new Scanner( new File( filePath ) );
+        scanFile("./data/input1.txt");
+        final double BMI = getBMI();
+        String output = name + " a un BMI de " + BMI;
+        showBmi(output);
+        saveBmiToFile(output, "./data/output1.txt");
+    }
 
-        // sachant que la source utilise des . (format anglais)
-        fileReader.useLocale( Locale.CANADA );
+    //
+    // Implémentation de la logique dans des fonctions spécifiques
+    //
+
+    /** Lire le fichier pour obtenir les valeurs */
+    public static void scanFile(String source) throws Exception { // à cause des fichiers
+        Scanner fileReader = new Scanner(new File(source));
+        fileReader.useLocale(Locale.CANADA); // sachant que la source utilise des . (format anglais)
 
         // le format du fichier est Nom(un mot) hauteur(double) masse(double)
-        String name = fileReader.next();
-        double height = fileReader.nextDouble(); // présumé en mètres
-        double weight = fileReader.nextDouble(); // présumé en kg
+        name = fileReader.next();
+        height = fileReader.nextDouble(); // présumé en mètres
+        weight = fileReader.nextDouble(); // présumé en kg
 
-        // libère le fichier après les entrées
-        fileReader.close();
+        fileReader.close(); // libère le fichier après les entrées
+    }
 
+    /** Utilise les variables globales pour calculer le BMI */
+    public static double getBMI() {
+        return weight / (height * height);
+    }
 
-        //
-        // TRAITEMENT
-        // Se servir des valeurs pour faire quelque chose
-        //
+    /** Affiche simplement le résultat à la console */
+    public static void showBmi(String text) {
+        System.out.println(text);
+    }
 
-        // la formule du BMI pour les kg et les mètres
-        double BMI = weight / ( height * height );
-
-
-        //
-        // SORTIE - console et fichier
-        //
-
-        // texte à afficher et à enregistrer
-        String output = name + " a un BMI de " + BMI;
-
-        // instruction de sortie > console
-        System.out.println( output ); 
-
-        // préparation d'un FileWriter
-        // le fichier sera crée s'il n'existe pas ou remplacé s'il existe déjà
-        String outputFile = "./data/output1.txt";
-        FileWriter fWriter = new FileWriter( outputFile );
-
-        // instruction de sortie > fichier
-        fWriter.write( output );
-
-        // il faut se rappeler de fermer les objets qui manipulent des fichiers
+    /** Enregistre le résultat dans le fichier choisi */
+    public static void saveBmiToFile(String text, String outputFile) throws Exception { // à cause des fichiers
+        FileWriter fWriter = new FileWriter(outputFile);
+        fWriter.write(text);
         fWriter.close();
     }
+
 }
