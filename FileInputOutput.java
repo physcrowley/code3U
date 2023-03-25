@@ -13,17 +13,18 @@ public class FileInputOutput {
     public static void main(String[] args) throws Exception { // à cause des fichiers
 
         scanFile("./data/input1.txt");
-        final double BMI = getBMI();
+        final double BMI = calculateBmi();
         String output = name + " a un BMI de " + BMI;
         showBmi(output);
         saveBmiToFile(output, "./data/output1.txt");
+
     }
 
     //
     // Implémentation de la logique dans des fonctions spécifiques
     //
 
-    /** Lire le fichier pour obtenir les valeurs */
+    /** Lit le fichier pour obtenir les valeurs */
     public static void scanFile(String source) throws Exception { // à cause des fichiers
         Scanner fileReader = new Scanner(new File(source));
         fileReader.useLocale(Locale.CANADA); // sachant que la source utilise des . (format anglais)
@@ -37,7 +38,7 @@ public class FileInputOutput {
     }
 
     /** Utilise les variables globales pour calculer le BMI */
-    public static double getBMI() {
+    public static double calculateBmi() {
         return weight / (height * height);
     }
 
